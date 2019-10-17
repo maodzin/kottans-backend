@@ -2,6 +2,17 @@
 ## I'm glad to be here!
 All stuff is new for me but very **useful**!
 
+## TCP. UDP. Network
+
+[Link to sniffer.py](https://github.com/maodzin/kottans-backend/blob/master/task_networks/sniffer.py).
+
+
+![TCP. UDP. Network](https://github.com/maodzin/kottans-backend/blob/master/task_networks/task_networks-1.jpg)
+
+
+![TCP. UDP. Network](https://github.com/maodzin/kottans-backend/blob/master/task_networks/task_networks-2.jpg)
+
+
 ## Memory Management
 
 - When program reaches maximum limit of stack we have a condition called stack overflow and the program receives a Segmentation Fault
