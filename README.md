@@ -1,6 +1,7 @@
 # Hi!
 ## I'm glad to be here!
 All stuff is new for me but very **useful**!
+
 ## Memory Management
 
 - When program reaches maximum limit of stack we have a condition called stack overflow and the program receives a Segmentation Fault
@@ -69,7 +70,15 @@ ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
 - Memory usage and leakage in Python  - I got additional knowledge in this theme that I'll definitily use in future
 
 
+## Python Basic I
 
+[Link to Hackerrank Profile](https://www.hackerrank.com/maxxox?hr_r=1).
+
+
+![Python Basic I](https://github.com/maodzin/kottans-backend/blob/master/python_basic_1/python_basic_1.jpg)
+
+
+![Python Basic I](https://github.com/maodzin/kottans-backend/blob/master/python_basic_1/python_basic_2.jpg)
 
 
 
