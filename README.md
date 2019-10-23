@@ -2,6 +2,73 @@
 ## I'm glad to be here!
 All stuff is new for me but very **useful**!
 
+
+## Http & Https
+
+*Requests:*
+ - ```curl https://api.github.com/users/maodzin```
+ - ```curl -i https://api.github.com/users/maodzin```
+ - ```curl --user "maodzin:*********" https://api.github.com/gists/starred```
+ -  ```curl --user "maodzin" https://api.github.com/gists/starred```
+ - ```curl -i https://api.github.com/orgs/kottans/repos```
+ - ```
+   curl -H 'Authorization: token 5199831f4dd3b79e7c5b7e0ebe75d67aa66e79d4'
+          -d '{\ 
+             "title": "New logo", \
+             "body": "We should have one", \
+             "labels": ["design"] \
+              }'\
+           https://api.github.com/repos/maodzin/kottans-backend/issues
+    ```       
+    
+1. 
+ - Privacy - eavesdropping passwords and private information
+ - Integrity - "man-in-the-middle" attack
+ - Identification - phishing and fake sites
+
+
+2. 	The main idea of public key is setting up initial connection ("hand shake") and access to digital signature of public key owner.
+ 
+
+3. 
+  
+ Request: </br>
+ `POST /pets {'petName': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}`
+	Response: </br>
+ `201 {'id': int, 'petName': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}`
+
+	
+ Request: </br>
+ `GET /pets?name=string\`
+	Response: </br>
+ `200 [{'id': int, 'petName': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}`
+
+
+ Request: </br>
+ `PUT /pets/<pet_id:int> {'petName': string}`\
+	Response: </br>
+ `200 {'id': int, 'petName': string}`
+
+	 
+ Request: </br>
+ `PUT /pets/<pet_id:int> {'medicalHistory': string}`\
+	Response: </br>
+ `200 {'id': int, 'petName': string, 'medicalHistory': string}`
+
+	 
+ Request: </br>
+ `PUT /doctors/<doctor_id:int> {'assignedPets': [int, ...]}`\
+	Response: </br>
+ `200 {doctor_id:int, 'id': int, 'petName': string, ..., 'assignedPets': [int, ...]}`
+
+	
+ Request: </br>
+ `POST /appointments {'petId': int, 'doctorId': int, 'AppointmentDateTime': date, 'description': string}`\
+ Response: </br>
+  `201 {'id': int, 'petId': int, 'doctorId': int, 'AppointmentDateTime': date, 'description': string}`
+
+
+
 ## TCP. UDP. Network
 
 [Link to sniffer.py](https://github.com/maodzin/kottans-backend/blob/master/task_networks/sniffer.py).
